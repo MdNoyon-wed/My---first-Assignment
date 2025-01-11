@@ -10,15 +10,18 @@
 .Bangla{
   font-weight: bold;
   font-size: 32px;
+  font-family: "Work Sans", serif;
 }
 .but{
-  width: 112px;
-  height: 56px;
-  padding: 15px;
-  font-weight: 600;
+  width: 126px;
+  height: 52px;
+  font-weight: bold;
   font-size: 18px;
-  color: #006A50;
+  color:  #006A50;
   border-radius: 10px;
+  border: none;
+
+
 }
 /* header part */
 
@@ -34,6 +37,7 @@ header{
 .banner{
   width: 622px;
   height: 200px;
+  font-family: "Work Sans", serif;
   border: 2px solid black;
   border: none;
   
@@ -52,6 +56,7 @@ header,.banner{
   height: 56px;
   padding: 17px 34px;
   font-weight: 600px;
+  border: none;
   font-size: 16px;
   border-radius: 10px;
   background-color:#006A50 ;
@@ -115,6 +120,8 @@ header,.banner1{
 .digital{
   font-weight: bold;
   font-size: 20px;
+  border: none;
+  font-family: "Work Sans", serif;
   margin-top: 20px;
 }
 .All-pra{
@@ -169,6 +176,7 @@ section{
 .News{
   font-weight: bold;
   font-size: 40px;
+  font-family: "Work Sans", serif;
   color: #0E0E0E;
 }
 .Recent,.Recent-2{
@@ -177,10 +185,11 @@ section{
   display: flex;
   background-color:#f7f7f7 ;
   border: 2px solid firebrick;
-  border: none;
+  border: none; 
   margin: 0px auto;
   margin-top: 32px;
 }
+
 .Recent{
   display: flex;
 }
@@ -194,17 +203,29 @@ section{
   background-color: #006A50;
   color: #fff;
   font-weight: 400px; 
+  border: none;
   font-size: 18px;
   border-radius: 10px;
   margin-top: 32px;
 }
-.rihgt{
-  margin:48px 0px 48px 48px;
- border: 5px dashed violet;
+.rihgt,.rihgt{
+  margin:70px 0px 48px 48px;
+   
 }
+.mine-img{
+  width: 408px;
+  height: 306px;
+  background-color: #ecebeb;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: none;
+}
+
+
 .today{
   font-weight: bold;
   font-size: 40px;
+  font-family: "Work Sans", serif;
   margin-top: 80px;
 }
 .title-4{
@@ -216,16 +237,18 @@ section{
 } 
 .item1,.item2{
 width: 240px ;
-height: 128px;
+height: 90px;
 border: 2px solid black;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: "Work Sans", serif;
+font-weight: bold;
 font-size: 40px;
 border-radius: 15px;
- text-align: center;
- background-color: #ecebeb;
- border: none;
- margin: 24px;
- padding-top: 40px;
+background-color: #f3f1f1;
+border: none;
+text-align: center;
+margin: 24px;
+padding-top: 40px;
+ 
  
 }
 .item2{
@@ -255,10 +278,11 @@ border-radius: 15px;
 .bold{
   font-weight: bold;
   font-size: 40px;
+  font-family: "Work Sans", serif;
   color: #0E0E0E;
   padding: 70px;
 }
-button{
+.bt{
   font-weight: bold;
   font-size: 20px;
   background-color: #006A50;
@@ -287,6 +311,11 @@ button{
 .Done{
   width: 151px;
   height: 65px;
+  font-weight: 400px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #006A50;
+  color: #ffffff;
   margin-top: 32px;
    
 }
